@@ -1,0 +1,2 @@
+# Ignore Debian repo files
+raspi_4_buster.img.*

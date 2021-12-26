@@ -1,0 +1,5 @@
+1640469025<frittro>Is there any way to start my new YunoHost install on a raspi4b using the latest version (v4.3.4.2 I think it is) rather the current v4.1.7.2 which is available from https://yunohost.org/en/install/hardware:rpi2plus ? I understand that I can update to v4.3.4.2 from v4.1.7.2, but I'd like to start with the latest available version, if I can.
+1640469114<tituspijean>1. Install Debian 10 from an image.
+1640469114<tituspijean>2. Use YunoHost installation script ("remote server" method in the documentation)
+1640469165<frittro>Ah, okay, that sounds like what I'll be doing then, thanks so much for that, and Merry Christmas.
+1640469207<tituspijean>To you too! 🎄

@@ -1,0 +1,7 @@
+https://yunohost.org/en/install/hardware:vps_debian
+
+
+$ ssh kaitiaki@192.168.1.4
+$ apt install curl ca-certificates
+$ curl https://install.yunohost.org | bash
+$ yunohost tools postinstall

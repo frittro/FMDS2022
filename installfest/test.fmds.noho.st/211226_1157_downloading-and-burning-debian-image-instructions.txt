@@ -1,0 +1,17 @@
+https://wiki.debian.org/RaspberryPiImages
+
+$ export RPI_MODEL=4
+$ lsblk
+$ export SD_CARD=/dev/sdb
+$ export DEBIAN_RELEASE=buster
+$ cd ~/fmds2022/211226_yunohost-installfest/
+$ wget https://raspi.debian.net/daily/raspi_${RPI_MODEL}_${DEBIAN_RELEASE}.img.xz
+$ wget https://raspi.debian.net/daily/raspi_${RPI_MODEL}_${DEBIAN_RELEASE}.img.xz.sha256
+$ sha256sum -c raspi_${RPI_MODEL}_${DEBIAN_RELEASE}.img.xz.sha256
+$ xzcat raspi_${RPI_MODEL}_${DEBIAN_RELEASE}.img.xz | sudo dd of=${SD_CARD} bs=64k oflag=dsync status=progress
+
+1572601856 bytes (1.6 GB, 1.5 GiB) copied, 103 s, 15.3 MB/s
+22270+5286 records in
+22270+5286 records out
+1572864000 bytes (1.6 GB, 1.5 GiB) copied, 103.024 s, 15.3 MB/s
+
