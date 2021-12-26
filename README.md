@@ -1,2 +1,2 @@
 # FMDS2022
-Selfhosting everything, beginning in 2022, using YunoHost, NextCloud, and other selfhosted apps.
+Beginning in 2022, I intend to start selfhosting as much as I can, using YunoHost, NextCloud, and other selfhosted apps, to move away from dependence on Google and other Big Data companies who monetize our personal data. As the saying goes, *"if you're not paying for it, then chances are you're not the customer; you're just the product that is being sold."* I no longer accept the premise of my personal life being the product that giant mega corporations sell off to their advertiser customers. With this project, I intend to take back ownership of my own digital life. 
